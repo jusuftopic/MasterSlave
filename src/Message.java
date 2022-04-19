@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Message {
 
     public static final int HEARTBEAT = 0xFF;
-    public static final int ALIVE = 0x0F;
+    public static final int DUMMY_MESSAGE = 0x0F;
     public static final int HELLO = 0x09;
     public static final int INITIALIZE =0x01;
     public static final int EXERCISE = 0x02;
