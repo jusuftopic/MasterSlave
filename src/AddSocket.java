@@ -2,9 +2,9 @@ import java.net.Socket;
 
 class AddSocket implements Runnable {
     private Socket sock;
-    private Slave s;
+    private Peer s;
 
-    public AddSocket(Slave s, Socket sock) {
+    public AddSocket(Peer s, Socket sock) {
         this.sock = sock;
         this.s = s;
     }

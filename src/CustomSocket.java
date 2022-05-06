@@ -6,10 +6,10 @@ public class CustomSocket implements Runnable {
 
     private int listenPort;
     private ServerSocket socket;
-    private Slave hostClass;
+    private Peer hostClass;
     private boolean run = false;
 
-    public CustomSocket(Slave hostClass, int port) {
+    public CustomSocket(Peer hostClass, int port) {
         try {
             this.socket = new ServerSocket(port);
             this.hostClass = hostClass;
